@@ -1,6 +1,10 @@
 import React from 'react'
+import '../pages/Slideshow.css'
+
 
 export default function Slideshow() {
+
+
   return (
     <div>
       <div id="myCarousel" className="carousel slide mb-6" data-bs-ride="carousel">
@@ -11,7 +15,8 @@ export default function Slideshow() {
     </div>
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="router\public\cashier3.jpeg " aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        {/* <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="router\public\cashier3.jpeg " aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> */}
+        <img className='images' src="../../public/cashier2.jpeg" alt=""/>
         <div className="container">
           <div className="carousel-caption text-start">
             <h1>Example headline.</h1>
@@ -21,7 +26,8 @@ export default function Slideshow() {
         </div>
       </div>
       <div className="carousel-item">
-        <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        {/* <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> */}
+        <img className='images' src="../../public/cashier.jpeg" alt="" />
         <div className="container">
           <div className="carousel-caption">
             <h1>Another example headline.</h1>
@@ -31,7 +37,8 @@ export default function Slideshow() {
         </div>
       </div>
       <div className="carousel-item">
-        <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        {/* <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> */}
+        <img className='images' src="../../public/cashier3.jpeg" alt="" />
         <div className="container">
           <div className="carousel-caption text-end">
             <h1>One more for good measure.</h1>
