@@ -1,6 +1,6 @@
 import React from 'react'
-
-import reateLogo from '../assets/react.svg'
+import '../pages/Home.css'
+import reateLogo from '../../public/smart impaters logo.jpeg'
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
       <nav className="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
     <div className="container-fluid">
 
-        <img src={reateLogo}></img>
+        <img className='logo' src={reateLogo}></img>
       <a className="navbar-brand" href="#">Smart Impacters</a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
